@@ -1,0 +1,88 @@
+[{
+
+        "imagine": "img/placadebaza.webp",
+        "id": "1acc0755-3069-436a-baa1-c01ca14ada6f",
+        "nume": "ASRock B450M-HDV R4.0",
+        "pret": 69.00,
+        "categoria": "placi de baza"
+    },
+    {
+        "imagine": "img/procesor.webp",
+        "id": "0da1c139-29bd-4fd4-a8bf-1ce0251bad0e",
+        "nume": "Procesor Intel Core i3-10100F Box",
+        "pret": 1859.00,
+        "categoria": "procesor"
+    },
+    {
+        "imagine": "img/placavideo.webp",
+
+        "id": "1a9639e3-76c9-45e9-852d-d788bf850043",
+        "nume": "Gigabyte RTX 3070 GAMING OC",
+        "pret": 14.199,
+        "categoria": "placi video"
+    },
+    {
+        "imagine": "img/memorieram.webp",
+
+        "id": "04d194ee-3e9f-4d3e-a738-2144c1e55483",
+        "nume": "Kingston FURY Beast KF432C16BBK2",
+        "pret": 1289.00,
+        "categoria": "memorie operativa"
+    },
+    {
+        "imagine": "img/sursedealimentare.webp",
+
+        "id": "7ea42f84-11bf-4379-9711-63761988d171",
+        "nume": "Gamemax GP-500",
+        "pret": 889.00,
+        "categoria": "sursa de alimentare"
+    },
+    {
+        "imagine": "img/dispozitivdestocare.webp",
+
+        "id": "6fbaf670-aec5-4f1e-92e4-d6aba826c3dd",
+        "nume": "HDD Western Digital Caviar Blue 1 TB",
+        "pret": 869.00,
+        "categoria": "dispozitive de stocare"
+    },
+    {
+        "imagine": "img/coolere.webp",
+
+        "id": "e6e02df9-c756-4898-b8d5-6000e4e41747",
+        "nume": "Deepcool THETA 15 PWM",
+        "pret": 169.00,
+        "categoria": "coolere"
+    },
+    {
+        "imagine": "img/carcase.webp",
+
+        "id": "8bb581b9-a980-47f8-a259-04506be08ab7",
+        "nume": "Gamemax G561-FRGB",
+        "pret": 689.00,
+        "categoria": "carcase"
+    },
+    {
+        "imagine": "img/acesorii.webp",
+
+        "id": "6fbaf670-aec5-4f1e-92e4-d6aba826c3dd",
+        "nume": "Deepcool LGA 1700 Mounting Kit for AK620 AS500 AS500 PLUS",
+        "pret": 99.00,
+        "categoria": "accesorii coolere"
+    },
+    {
+        "imagine": "img/dispozitivdestocare2.webp",
+
+        "id": "6fbaf670-aec5-4f1e-92e4-d6aba826c3dd",
+        "nume": "SSD Samsung 970 EVO Plus 500 GB",
+        "pret": 901.00,
+        "categoria": "dispozitive de stocare"
+    },
+    {
+        "imagine": "img/coolere2.webp",
+
+        "id": "e6e02df9-c756-4898-b8d5-6000e4e41747",
+        "nume": "Deepcool LUCIFER V2",
+        "pret": 1099.00,
+        "categoria": "coolere"
+    }
+]

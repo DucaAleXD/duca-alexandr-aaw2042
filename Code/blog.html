@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comoda-magazin de mobila</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header" >
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="" ></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a class="active" href="blog.html">Discounts</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class=" far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class=" far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+
+
+            </div>
+
+        </section>
+       
+        <section id="page-header" class="blog-header">
+            
+            <div id="info">
+                <h2>#hot discounts</h2>
+                <p>Save more with coupons & up to 70% off!</p>
+             </div>
+            
+        </section>
+        <section id="discounts">
+            <aside>
+                <form action="#" method="post" id="form-filter">
+                    <div class="mb-3">
+                        <label for="pret">Pret</label>
+                        <select name="pret" id="pret">
+                            <option value="asc">Crescator</option>
+                            <option value="desc">Descrescator</option>
+                        </select>
+                    </div>
+                    <button type="submit">Filtreaza</button>
+                    <div class="categorii" id="categorii"></div>
+                </form>
+            </aside>
+            <main>
+                <!-- <div class="categorii" id="categorii"></div> -->
+                <div class="produse" id="produse"></div>
+            </main>
+        </section>
+        
+        <section id="pagination" class="pagination">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1 container">
+            <div class="newstext">
+                <h4>Sign Up For Newletters</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span> </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button >Sign Up</button>
+
+            </div>
+            
+        </section>
+        <section id="footer">
+            <footer>
+                <div class="col">
+                    <img class="logo" alt="">
+                    <h4>Contact</h4>
+                    <p><strong>Adress:</strong></p>
+                    <p><strong>Phone:</strong></p>
+                    <p><strong>Hours:</strong></p>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>About</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="col">
+                    <h4>My Account</h4>
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+                </div>
+                <div class="col install ">
+                    <h4>Install App</h4>
+                    <p>From App Store or Google Play</p>
+                    <div class="row">
+                        <img src="img/app.jpg" alt="">
+                        <img src="img/play.jpg" alt="">
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <img src="img/pay.png" alt="">
+                </div>
+                <div class="installresponsiv">
+                    <h4>Install App</h4>
+                    <div class=" installcontent">
+                        <div class="paycontent">
+                            <p>From App Store or Google Play</p>
+                            <div class="row">
+                                <img src="img/app.jpg" alt="">
+                                <img src="img/play.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="paycontent">
+                            <p>Secured Payment Gateways</p>
+                            <img src="img/pay.png" alt="">
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </footer>
+    
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
